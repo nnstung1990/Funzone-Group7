@@ -189,11 +189,10 @@ header .dropdown-toggle::after{
 footer{
     background-color: lightcyan;
     color: lightslategray;
-    padding-top: 2rem;
-    background: url('../image/Home/Logo/bg-footer.jpg');
+    padding-top:2rem;
+    background:url('../image/Home/Logo/bg-footer.jpg');
     background-size:100% 100%; 
     width:100%; 
-    overflow:hidden;
 }
 footer .col-md-4{
     margin-top: auto;
