@@ -190,7 +190,7 @@ footer{
     background-color: lightcyan;
     color: lightslategray;
     padding-top: 2rem;
-    background: url('/image/Home/Logo/bg-footer.jpg') repeat-x scroll top transparent;
+    background: url('../image/Home/Logo/bg-footer.jpg');
     background-size:100% 100%; 
     width:100%; 
     overflow:hidden;
