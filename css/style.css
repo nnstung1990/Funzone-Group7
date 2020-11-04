@@ -1,0 +1,374 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-size: 100%;
+}
+body{
+    font-family: monospace;
+    font-size: 15px;
+}
+hr{
+    border-top: 2px solid #d5d5d5;
+    width: 20%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+hr.light{
+    border-top: 1px solid #d5d5d5;
+    width: 75%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+hr.my4{
+    border-top: 1px solid #d5d5d5;
+    border-top: 1px solid #d5d5d5;
+    width: 100%;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Header */
+header{
+    background:url('/image/Home/Logo/bg-header.jpg');
+    background-size:100% 100%; 
+    width:100%;
+}
+header img{
+    margin: auto;
+    display: block;
+    padding:30px 0px;
+}
+header .navbar{
+    align-items: unset;
+}
+header .navbar ul li{
+    color: black;
+    text-transform: uppercase;
+    padding: 7px 25px 7px 25px;
+    font-weight: bold;
+}
+header .nav-link{
+    font-family: monospace;
+    color: black;
+    font-size: 18px;
+}
+header .nav-link:hover{
+    color: brown;
+}
+header .dropdown-menu{
+    border-color: brown;
+}
+header .dropdown-item{
+    font-family: monospace;
+    color:black;
+    font-size: 18px;
+    font-weight: bold;
+}
+header .dropdown-toggle::after{
+    display: none;
+}
+/* End Header */
+
+/* Slider */
+.carousel-item img{
+    width: 100%;
+    height: 540px;
+}
+/* End Slider */
+
+/* Information */
+/* About */
+#about h1{
+    font-size: 5rem;
+}
+#about p{
+    padding: 15px 50px 0 0;
+    text-align: justify;
+    line-height: 2.5rem;
+}
+#about .btn{
+    margin-bottom: 3rem;
+}
+/* End About */
+/* Character */
+.card img{
+    border-radius: 20px 20px 0px 0px;
+    height: 250px;
+}
+.card{
+    border-radius: 20px;
+}
+.card:hover{
+    box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+}
+.card p{
+    text-align: justify;
+    letter-spacing: 0.1px;
+}
+.btn-primary{
+    bottom: 10px;
+    left: 10px;
+}
+#staff .thumbnail-row {
+	margin: auto 60px;
+}
+
+#staff h3 {
+	font-family: 'Lato', sans-serif;
+	text-transform: none;
+	color: #182c39;
+	margin: 50px auto 10px auto;
+}
+
+#staff img {
+	border-radius: 50%;
+	margin-bottom: 10px;
+}
+
+
+#staff  h5 {
+	color: #222;
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+}
+
+#staff  h6 {
+	color: #555;
+	font-size: 16px;
+}
+
+#staff img:hover {
+	box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.9);
+	transition: .3s;
+}
+/* End Character */
+
+/* Connect */
+#connect{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.social a{
+    font-size: 4.5em!important;
+    padding: 3rem;
+}
+.fa-facebook{
+    color: #3b5998;
+}
+.fa-twitter{
+    color: #00aced;
+}
+.fa-instagram{
+    color: #517fa4;
+}
+.fa-youtube{
+    color: #bb0000;
+}
+.fa-google-plus-g{
+    color: #dd4b39;
+}
+.fa-facebook:hover,
+.fa-twitter:hover,
+.fa-instagram:hover,
+.fa-youtube:hover,
+.fa-google-plus-g:hover{
+    color: #d5d5d5;
+}
+/* End Connect */
+
+/* End Information */
+
+/* Footer */
+footer{
+    background-color: lightcyan;
+    color: lightslategray;
+    padding-top: 2rem;
+    background: url('/image/Home/Logo/bg-footer.jpg') repeat-x scroll top transparent;
+    background-size:100% 100%; 
+    width:100%; 
+    overflow:hidden;
+}
+footer .col-md-4{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+footer img{
+    padding-top: 2rem;
+}
+footer ul li{
+    list-style-type: none;
+    margin: -7px;
+}
+footer .icn {
+    font-family: monospace;
+    font-size: 18px;
+    color: black;
+}
+footer h4,p strong{
+    color: #0004FF;
+    font-weight: bold;
+}
+/* End Footer */
+
+/* Responsive */
+@media (max-width: 992px){
+
+    header .dropdown .dropdown-menu{
+        display: none;
+    }
+}
+@media (max-width: 768px){
+}
+@media (max-width: 576px){
+}
+/* End Responsive */
+
+/* Contact Us */
+#contactus{
+    padding: 40px 0 0 0;
+}
+#contactus .heading {
+    font-family: monospace;
+    text-align: center;
+    font-size: 45px;
+    border-bottom: 2px dotted #fff;
+    color: black;
+}
+#contactus .btn-info {
+    color: black;
+    width: 50%;
+    letter-spacing: 2px;
+    background: transparent;
+    transition: all 0.5s ease-in-out;
+}
+
+#contactus .btn-info:hover {
+    transform: scale(1.05);
+}
+
+#contactus .icn {
+    font-family: monospace;
+    font-size: 17px;
+    color: black;
+}
+
+#contactus hr {
+    border-top: 2px solid #d5d5d5;
+    width: 100%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#contactus .media a {
+    /* color: black; */
+    font-family: monospace;
+    font-size: 27px;
+    padding: 0 0 0 50px;
+    margin-right: 10px;
+}
+#contactus a:hover {
+    color: #999;
+}
+
+#contactus iframe {
+    width: 100%;
+}
+/* End Contact Us */
+
+/* Exprience */
+#exprience {
+    padding: 40px 0 0 0
+}
+
+#exprience hr {
+    border-top: 2px solid #d5d5d5;
+    width: 100%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* End Exprience */
+
+/* Dinning */
+#dinning hr {
+    border-top: 2px solid #d5d5d5;
+    width: 100%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+#dinning {
+    padding: 40px 0 0 0
+}
+/* End Dinning */
+
+/* Shopping */
+#shopping hr {
+    border-top: 2px solid #d5d5d5;
+    width: 100%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+#shopping {
+    padding: 40px 0 0 0
+}
+/* End Shopping */
+
+/* Entertainment */
+#entertainment hr {
+    border-top: 2px solid #d5d5d5;
+    width: 100%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+#entertainment {
+    padding: 40px 0 0 0
+}
+/* End Entertainment */
+/* Amusement */
+#amusement {
+    padding: 40px 0 0 0
+}
+#amusement hr {
+    border-top: 2px solid #d5d5d5;
+    width: 100%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+#amusement2 {
+    padding: 40px 0 0 0
+}
+#amusement2 hr {
+    border-top: 2px solid #d5d5d5;
+    width: 100%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+#amusement img{
+    width: 100%;
+    height: 235px;
+}
+/* End Amusement */
+/* End Shopping */
+
+/* Entertainment */
+
