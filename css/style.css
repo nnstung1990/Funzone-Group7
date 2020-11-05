@@ -80,10 +80,10 @@ header .dropdown-toggle::after{
 /* End Header */
 
 /* Slider */
-.carousel-inner img{
+#inner img{
     width: 100%;
-    height: 559px;
-    object-fit: cover;
+    /* height: 559px;
+    object-fit: cover; */
 }
 /* End Slider */
 
@@ -438,7 +438,9 @@ footer h4,p strong{
     font-family: 'SunWorld', sans-serif;
     padding-top: 53px;
 }
-
+.padding{
+    padding: 0px;
+}
 
 
 
