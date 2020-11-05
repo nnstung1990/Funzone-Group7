@@ -9,6 +9,12 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
     <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <style>
+        .carousel-inner img{
+            height: 559px;
+    object-fit: cover;
+        }
+    </style>
 </head>
 
 <body>
@@ -62,7 +68,7 @@
             <li data-target="#slides" data-slide-to="1"></li>
             <li data-target="#slides" data-slide-to="2"></li>
         </ul>
-        <div class="carousel-inner">
+        <div class="carousel-inner" id="inner">
             <div class="carousel-item active">
                 <img src="image/Home/Slide/slide.jpg">
             </div>
