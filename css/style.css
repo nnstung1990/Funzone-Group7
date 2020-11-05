@@ -33,7 +33,12 @@ hr.my4{
     margin-left: auto;
     margin-right: auto;
 }
-
+.logo{
+    width: 50%;
+}
+h1,h2,h3,h4,h5{
+    font-weight: bold;
+}
 /* Header */
 header{
     background:url('../image/Home/Logo/bg-header.jpg');
@@ -77,9 +82,8 @@ header .dropdown-toggle::after{
 /* End Header */
 
 /* Slider */
-.carousel-item img{
+.carousel-inner img{
     width: 100%;
-    height: 540px;
 }
 /* End Slider */
 
@@ -100,7 +104,7 @@ header .dropdown-toggle::after{
 /* Character */
 .card img{
     border-radius: 20px 20px 0px 0px;
-    height: 250px;
+    height: 215px;
 }
 .card{
     border-radius: 20px;
@@ -120,28 +124,17 @@ header .dropdown-toggle::after{
 	margin: auto 60px;
 }
 
-#staff h3 {
-	font-family: 'Lato', sans-serif;
-	text-transform: none;
-	color: #182c39;
-	margin: 50px auto 10px auto;
-}
-
 #staff img {
 	border-radius: 50%;
-	margin-bottom: 10px;
-}
-
-
-#staff  h5 {
-	color: #222;
-	font-family: 'Roboto', sans-serif;
-	font-size: 18px;
+	margin-bottom: 20px;
 }
 
 #staff  h6 {
 	color: #555;
-	font-size: 16px;
+    font-size: 15px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
 }
 
 #staff img:hover {
@@ -189,8 +182,8 @@ header .dropdown-toggle::after{
 footer{
     background-color: lightcyan;
     color: lightslategray;
-    padding-top:2rem;
-    background:url('../image/Home/Logo/bg-footer.jpg');
+    padding-top: 2rem;
+    background: url('../image/Home/Logo/bg-footer.jpg');
     background-size:100% 100%; 
     width:100%; 
 }
@@ -221,6 +214,7 @@ footer h4,p strong{
 
     header .dropdown .dropdown-menu{
         display: none;
+        
     }
 }
 @media (max-width: 768px){
@@ -362,12 +356,92 @@ footer h4,p strong{
     margin-left: auto;
     margin-right: auto;
 }
-#amusement img{
-    width: 100%;
-    height: 235px;
-}
 /* End Amusement */
 /* End Shopping */
 
 /* Entertainment */
+.sun1{
+    width: 100%;  
+    height: 250px;
+    border-radius: 10px;
+}
+.VN1 a{
+    font-size: 30px;
+    font-size: 1.875rem;
+    font-weight: bold;
+    color: red;
+    font-family: 'SunWorld', sans-serif;
+}
+.col-sm-4{
+    height: 100%;
+    width: 100%;
+   
+}
+.dv1{
+    padding: 0px 0px 50px 0px;
+    border-radius: 10px;
+    background-color: rgb(194, 226, 213);
+    height: 500px;
+    margin-bottom: 30px; 
+}
+.more{
+    color: red;
+}
+.imgslidesmall{
+    width: 100%;
+    
+}
+
+.VN2 a{
+    font-size: 30px;
+    font-size: 1.875rem;
+    font-weight: bold;
+    color:black;
+    font-family: 'SunWorld', sans-serif;
+}
+.dv2{
+    border-radius: 10px;
+    background-color: rgb(200, 221, 213);
+    height: 360px;
+    margin-bottom: 30px; 
+}
+.btt{
+    margin-bottom: 30px;
+}
+.dv3{
+    margin-bottom: 30px;
+}
+.VN1{
+    font-size: 30px;
+    font-size: 1.875rem;
+    font-weight: bold;
+    color: rgb(26, 22, 22);
+    font-family: 'SunWorld', sans-serif;
+}
+.imfooter{
+    width: 100%;
+    height: 235px;
+    padding-top: 0px;
+}
+.nav-item:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+ }
+.indi{
+    font-size: 30px;
+    font-size: 1.875rem;
+    font-weight: bold;
+    color: red;
+    font-family: 'SunWorld', sans-serif;
+    padding-top: 53px;
+}
+.padding{
+    padding: 0px;
+}
+
+
+
+
+
+
 
