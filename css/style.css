@@ -46,7 +46,7 @@ header img{
     margin: auto;
     display: block;
     padding:30px 0px;
-    width: 40%;
+    width: 50%;
 }
 header .navbar{
     align-items: unset;
@@ -191,6 +191,8 @@ footer .col-md-4{
 }
 footer img{
     padding-top: 2rem;
+    padding-left: 3rem;
+    width: 100%;
 }
 footer ul li{
     list-style-type: none;
@@ -209,19 +211,27 @@ footer h4,p strong{
 
 /* Responsive */
 @media (max-width: 992px){
-
+    header img{
+        margin: auto;
+        display: block;
+        width: 50%;
+    }
     header .dropdown .dropdown-menu{
         display: none;
     }
 }
 @media (max-width: 768px){
     header img{
-        width: fit-content;
+        margin: auto;
+        display: block;
+        width: 40%;
     }
 }
 @media (max-width: 576px){
     header img{
-        width: fit-content;
+        margin: auto;
+        display: block;
+        width: 30%;
     }
 }
 /* End Responsive */
