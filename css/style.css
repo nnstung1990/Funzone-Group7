@@ -34,10 +34,8 @@ hr.my4{
     margin-right: auto;
 }
 h1,h2,h3,h4,h5{
+    text-transform: uppercase;
     font-weight: bold;
-}
-h5{
-text-transform: uppercase;
 }
 /* Header */
 header{
