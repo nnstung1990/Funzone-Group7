@@ -121,25 +121,7 @@ header .dropdown-toggle::after{
     bottom: 10px;
     left: 10px;
 }
-#staff .thumbnail-row {
-	margin: auto 60px;
-}
 
-#staff img {
-	border-radius: 50%;
-	margin-bottom: 20px;
-}
-
-.staff h6{
-	color: #555;
-    font-size: 15px;
-    padding: 10px;
-}
-
-#staff img:hover {
-	box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.9);
-	transition: .3s;
-}
 /* End Character */
 
 /* Connect */
@@ -174,6 +156,7 @@ header .dropdown-toggle::after{
     color: #d5d5d5;
 }
 /* End Connect */
+/* Our Partner */
 .slick-slide {
     margin: 0px 20px;
 }
@@ -570,10 +553,6 @@ footer h4,p strong{
 .flipbox h2 { font-size: 24px }
 .box .flipbox { min-height: 240px; position: relative; }
 .box:hover .flipbox h2 { color: #fff; font-size: 32px; margin: 0px 0px 25px; -webkit-transition: all .7s ease; -moz-transition: all .7s ease; -ms-transition: all .7s ease; -o-transition: all .7s ease; transition: all .7s ease; }
-
-
-
-
 
 
 
