@@ -31,7 +31,9 @@ $(document).ready(function(){
         }
     );
 });
-
+function showinfo(){
+        alert("Thanks. We acknowledge your contribution.!!!!!")
+    }
 $(document).ready(function(){
     $('.expr').hover(
         function(){
